@@ -1,0 +1,62 @@
+/* Profile Card */
+.profile-wrapper {
+    margin: 20px 10px 10px 10px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+}
+
+#topBar-profile {
+    background-color: rgb(70,159,182);
+    display: block;
+    height: 100px;
+}
+
+#imageIcon-profile {
+    height: 70px;
+    position: absolute;
+    top: 110px;
+    border: 5px solid white;
+    border-radius: 50%;
+    outline: 5px solid lightgrey;
+}
+
+#main-profile {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-left: 5px solid lightgrey;
+    border-right: 5px solid lightgrey;
+    border-bottom: 5px solid lightgrey;
+}
+
+#locationIcon-profile {
+    height: 20px;
+    padding-right: 10px;
+}
+
+#location-profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#name-profile {
+    padding: 0px 0px 10px 0px;
+    font-size:xx-large;
+}
+
+#description-profile {
+    padding: 0px 0px 10px 0px;
+}
+
+#settings-profile {
+    display: flex;
+    align-items: center;
+}
+
+#gearIcon-profile {
+    height: 20px;
+    padding-right: 10px;
+}

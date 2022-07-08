@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-nav.css">
+    <link rel="stylesheet" href="style-profile.css">
+    <link rel="stylesheet" href="style-main.css">
+    <link rel="stylesheet" href="style-requests.css">
+    <link rel="stylesheet" href="style-connections.css">
+    <link rel="stylesheet" href="style-education.css">
+    <title>Profile Page</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <div class="nav-contents">
+            <ul class="nav-links">
+                <li><h1 class="title">Profile</h1></li>
+                <li class="nav-li">Home</li>
+                <li class="nav-li">My Profile</li>
+                <li class="nav-li">Find Connections</li>
+            </ul>
+            <button class="nav-button">Sign Out</button>
+        </div>
+    </nav>
+
+    <div class="main">
+        <!-- Division Left Side -->
+        <div class="left-side">
+            <!-- Profile Card -->
+            <div class="profile-wrapper">
+                <div id="topBar-profile"></div>
+                <div id="main-profile">
+                    <img src="./icons/user-circle.png" id="imageIcon-profile" alt="User Icon">
+                    <p id="name-profile">Jane Doe</p>
+                    <div id="location-profile">
+                        <img src="./icons/map-marker.png" id="locationIcon-profile" alt="Location Icon">
+                        <h2>Seattle</h2>
+                    </div>
+                    <div id="description-profile">
+                        <p>Developer | Engineer | Problem Solver <br>Master of Shadows and the Internet!</p>
+                    </div>
+                    <div id="settings-profile">
+                        <img src="./icons/gear.png" id="gearIcon-profile" alt="Gear Icon">
+                        <a href="/">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Education -->
+            <div class="education-wrapper">
+                <div class="headder-education">
+                    <p class="title-education">Education</p>
+                </div>
+                <div class="details-education">
+                    <p id="det-title">Coding Dojo - Full Stack Bootcamp</p>
+                    <p id="det-dates">Dec 2019 - Mar 2020</p>
+                    <p id="det-description">Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <!-- Division Right Side -->
+        <div class="right-side">
+            <!-- Connection Requests -->
+            <div class="connection-request-wrapper">
+                <div class="headder-requests">
+                    <p class="number-bubble-requests">2</p>
+                    <p class="title-requests">Connection Requests</p>
+                </div>
+                <div class="user-requests">
+                    <div class="user">
+                        <div class="identificaiton-section">
+                            <img src="./images/todd-s.jpg" alt="Image of Todd" class="user-image">
+                            <p class="name">Todd E</p>
+                        </div>
+                        <div class="action-section">
+                            <img src="./icons/accept-circle.png" alt="Accept Icon" class="accept-icon">
+                            <img src="./icons/close-circle.png" alt="Reject Icon" class="reject-icon">
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="identificaiton-section">
+                            <img src="./images/phil-s.jpg" alt="Image of Todd" class="user-image">
+                            <p class="name">Phil K</p>
+                        </div>
+                        <div class="action-section">
+                            <img src="./icons/accept-circle.png" alt="Accept Icon" class="accept-icon">
+                            <img src="./icons/close-circle.png" alt="Reject Icon" class="reject-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Your Connections -->
+            <div class="connection-request-wrapper">
+                <div class="headder-requests">
+                    <p class="number-bubble-requests">500+</p>
+                    <p class="title-requests">Your Connections</p>
+                </div>
+                <div class="user-connections">
+                    <div class="user">
+                        <div class="identificaiton-section">
+                            <img src="./images/adrien-s.jpg" alt="Image of Todd" class="user-image">
+                            <p class="name">Adrien D</p>
+                        </div>
+                        <div class="action-section">
+                            <img src="./icons/accept-circle.png" alt="Accept Icon" class="accept-icon">
+                            <img src="./icons/close-circle.png" alt="Reject Icon" class="reject-icon">
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="identificaiton-section">
+                            <img src="./images/anne-s.jpg" alt="Image of Todd" class="user-image">
+                            <p class="name">Anne J</p>
+                        </div>
+                        <div class="action-section">
+                            <img src="./icons/accept-circle.png" alt="Accept Icon" class="accept-icon">
+                            <img src="./icons/close-circle.png" alt="Reject Icon" class="reject-icon">
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="identificaiton-section">
+                            <img src="./images/alayne-s.jpg" alt="Image of Todd" class="user-image">
+                            <p class="name">Alayne T</p>
+                        </div>
+                        <div class="action-section">
+                            <img src="./icons/accept-circle.png" alt="Accept Icon" class="accept-icon">
+                            <img src="./icons/close-circle.png" alt="Reject Icon" class="reject-icon">
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="identificaiton-section">
+                            <img src="./images/arry-s.jpg" alt="Image of Todd" class="user-image">
+                            <p class="name">Arry Y</p>
+                        </div>
+                        <div class="action-section">
+                            <img src="./icons/accept-circle.png" alt="Accept Icon" class="accept-icon">
+                            <img src="./icons/close-circle.png" alt="Reject Icon" class="reject-icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="view-more">
+                    <a href="/">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
