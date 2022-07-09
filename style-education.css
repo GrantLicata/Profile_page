@@ -1,6 +1,6 @@
 .education-wrapper {
     font-family: Arial;
-    width: 400px;
+    width: 460px;
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -15,7 +15,6 @@
     margin: 0;
 }
 
-
 .title-education {
     color: white;
     margin: 0;
@@ -29,10 +28,15 @@
 }
 
 #det-title {
-    font-size: 16pt;
+    font-size: 18pt;
     margin: 0pt;
 }
 
 #det-dates {
+    margin-top: 10px;
     color: rgb(89, 87, 87);
+}
+
+#det-description {
+    margin-top: 10px;
 }
